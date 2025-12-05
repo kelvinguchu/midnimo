@@ -1,0 +1,6 @@
+export { AboutHeroSection } from './AboutHeroSection'
+export { MissionSection } from './MissionSection'
+export { StorySection } from './StorySection'
+export { FemaleEducationSection } from './FemaleEducationSection'
+export { GraduatesSection } from './GraduatesSection'
+export { FacultySection } from './FacultySection'

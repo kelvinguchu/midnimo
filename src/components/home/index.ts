@@ -1,0 +1,6 @@
+export { HeroSection } from './HeroSection'
+export { AboutSection } from './AboutSection'
+export { WhyChooseUsSection } from './WhyChooseUsSection'
+export { CoursesSection } from './CoursesSection'
+export { StudentsLifeSection } from './StudentsLifeSection'
+export { CTASection } from './CTASection'
