@@ -8,11 +8,11 @@ export function FemaleEducationSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
           <div className="flex flex-col justify-center space-y-4 sm:space-y-6">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
-              Our Commitment to Women's Education
+              Our Commitment to Women&apos;s Education
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
               At Midnimo Institute, we deeply believe in the power of educational choice, especially
-              in the lives of women. We prioritize women's education, making it our main objective,
+              in the lives of women. We prioritize women&apos;s education, making it our main objective,
               and as a result, the majority of our students are women.
             </p>
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
