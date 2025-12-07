@@ -17,12 +17,10 @@ export function FacultySection() {
     <section className="py-10 sm:py-12 md:py-16 bg-slate-50">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-8 sm:mb-12">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">
-            Macalimiinteena
-          </h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">Our Faculty</h2>
           <p className="text-sm sm:text-base text-muted-foreground mx-auto px-2">
-            Macalimiintayada waa xirfadleyda aqoon dheer leh oo u heellan inay siiyaan ardayda
-            waxbarasho tayo sare leh iyo tababar dhab ah.
+            Our faculty are highly qualified professionals dedicated to providing students with
+            high-quality education and practical training.
           </p>
         </div>
 

@@ -4,10 +4,10 @@ import Image from 'next/image'
 import { Mail, Phone, MapPin, Clock } from 'lucide-react'
 
 const quickLinks = [
-  { href: '/', label: 'Guriga' },
-  { href: '/about', label: 'Nagu Saabsan' },
-  { href: '/media', label: 'Wararka' },
-  { href: '/contact', label: 'Nala Soo Xiriir' },
+  { href: '/', label: 'Home' },
+  { href: '/about', label: 'About Us' },
+  { href: '/media', label: 'News' },
+  { href: '/contact', label: 'Contact Us' },
 ]
 
 const courses = ['Nursing', 'Midwifery', 'Lab Technician', 'Pharmacy', 'Public Health']
@@ -37,8 +37,8 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Awood siinta jiilka xiga ee xirfadlayaasha caafimaadka ee gobolka Mudug iyagoo loo
-              marayo waxbarasho tayo leh iyo tababar dhab ah.
+              Empowering the next generation of health professionals in the Mudug region through
+              quality education and practical training.
             </p>
             {/* Social Links */}
             <div className="flex gap-3">
@@ -61,7 +61,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div className="space-y-4 sm:space-y-6">
-            <h6 className="text-base sm:text-lg font-semibold">Xiriirinta Degdega</h6>
+            <h6 className="text-base sm:text-lg font-semibold">Quick Links</h6>
             <ul className="space-y-2 sm:space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.href}>
@@ -78,7 +78,7 @@ export default function Footer() {
 
           {/* Our Courses */}
           <div className="space-y-4 sm:space-y-6">
-            <h6 className="text-base sm:text-lg font-semibold">Koorsasheena</h6>
+            <h6 className="text-base sm:text-lg font-semibold">Our Courses</h6>
             <ul className="space-y-2 sm:space-y-3">
               {courses.map((course) => (
                 <li key={course}>
@@ -90,7 +90,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div className="space-y-4 sm:space-y-6">
-            <h6 className="text-base sm:text-lg font-semibold">Nala Soo Xiriir</h6>
+            <h6 className="text-base sm:text-lg font-semibold">Contact Us</h6>
             <ul className="space-y-3 sm:space-y-4">
               <li className="flex items-start gap-2 sm:gap-3 text-slate-400">
                 <MapPin className="h-4 w-4 sm:h-5 sm:w-5 text-primary shrink-0 mt-0.5" />

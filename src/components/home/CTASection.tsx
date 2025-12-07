@@ -26,14 +26,13 @@ export function CTASection() {
         <div className="mx-auto text-center space-y-4 md:space-y-6">
           {/* Heading */}
           <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            Ma Diyaar u Tahay Inaad Bilawdo{' '}
-            <span className="block">Healthcare or Tech Career?</span>
+            Are You Ready to Start Your <span className="block">Healthcare or Tech Career?</span>
           </h2>
 
           {/* Description */}
           <p className="text-base sm:text-lg md:text-xl text-white/80 mx-auto leading-relaxed px-2">
-            Ku biir boqolaal qalin jabiyeyaal oo ka soo baxay Midnimo College oo hadda ka shaqeeya
-            xarumaha caafimaadka ee gobolka. Qaad tallaabada ugu horraysa ee xirfad abaal leh.
+            Join hundreds of graduates from Midnimo College who are now working in healthcare
+            facilities across the region. Take the first step towards a rewarding career.
           </p>
 
           {/* CTA Buttons */}
@@ -44,7 +43,7 @@ export function CTASection() {
               className="bg-white text-primary hover:bg-white/90 font-semibold text-sm sm:text-base h-12 sm:h-14 px-6 sm:px-8 group cursor-pointer"
             >
               <Link href="/contact" className="flex items-center justify-center gap-2">
-                Isdiiwaangeli Hadda
+                Register Now
                 <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform" />
               </Link>
             </Button>
@@ -54,9 +53,9 @@ export function CTASection() {
               size="lg"
               className="border-2 border-white/30 bg-white/5 text-white hover:bg-white hover:text-primary font-semibold text-sm sm:text-base h-12 sm:h-14 px-6 sm:px-8 backdrop-blur-sm cursor-pointer"
             >
-              <Link href="tel:+252000000000" className="flex items-center justify-center gap-2">
+              <Link href="tel:+252907688993" className="flex items-center justify-center gap-2">
                 <Phone className="h-4 w-4 sm:h-5 sm:w-5" />
-                Nala Soo Xiriir
+                Contact Us
               </Link>
             </Button>
           </div>

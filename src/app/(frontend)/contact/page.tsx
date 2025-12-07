@@ -12,12 +12,10 @@ export default function ContactPage() {
         <div className="absolute inset-0 bg-black/60" />
         <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
-            <span className="relative inline-block pb-2 border-b-4 border-primary">
-              Nala Soo Xiriir
-            </span>
+            <span className="relative inline-block pb-2 border-b-4 border-primary">Contact Us</span>
           </h1>
           <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-xl mx-auto">
-            Waxaan diyaar u nahay inaan kaa caawino. Nala soo xiriir telefoon ama email.
+            We are ready to help you. Contact us by phone or email.
           </p>
         </div>
       </section>
@@ -35,7 +33,7 @@ export default function ContactPage() {
                       <Phone className="h-5 w-5 sm:h-6 sm:w-6 text-primary" />
                     </div>
                     <div className="space-y-2">
-                      <h3 className="font-semibold text-base sm:text-lg">Telefoon</h3>
+                      <h3 className="font-semibold text-base sm:text-lg">Phone</h3>
                       <div className="space-y-1">
                         <a
                           href="tel:+252907688993"
@@ -83,7 +81,7 @@ export default function ContactPage() {
                       <MapPin className="h-5 w-5 sm:h-6 sm:w-6 text-primary" />
                     </div>
                     <div className="space-y-2">
-                      <h3 className="font-semibold text-base sm:text-lg">Goobta</h3>
+                      <h3 className="font-semibold text-base sm:text-lg">Location</h3>
                       <p className="text-sm sm:text-base text-muted-foreground">
                         Galdogob, Mudug Region, Somalia
                       </p>
@@ -100,11 +98,11 @@ export default function ContactPage() {
                       <Clock className="h-5 w-5 sm:h-6 sm:w-6 text-primary" />
                     </div>
                     <div className="space-y-2">
-                      <h3 className="font-semibold text-base sm:text-lg">Saacadaha Shaqada</h3>
+                      <h3 className="font-semibold text-base sm:text-lg">Working Hours</h3>
                       <div className="text-sm sm:text-base text-muted-foreground space-y-1">
-                        <p>Aroornimo: 8AM - 12PM</p>
-                        <p>Galabnimo: 4PM - 6PM</p>
-                        <p>Habeennimo: 6:15PM - 9:30PM</p>
+                        <p>Morning: 8AM - 12PM</p>
+                        <p>Afternoon: 4PM - 6PM</p>
+                        <p>Evening: 6:15PM - 9:30PM</p>
                       </div>
                     </div>
                   </div>

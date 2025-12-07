@@ -8,33 +8,33 @@ export function AboutSection() {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="space-y-4 sm:space-y-6">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">Nagu Saabsan</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">About Us</h2>
             <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-              Midnimo College of Health and Technology, waxaan ku dadaalnaa awood siinta jiilka xiga
-              ee xirfadlayaasha caafimaadka iyo shaqaalaha xirfad leh ee gobolka Mudug. La aasaasay
-              2017, kulliyaddeena waxay si degdeg ah u noqotay machadka ugu sarreeya Waxbarashada
-              iyo Tababarka Xirfadeed iyo Farsamada (TVET) ee Galdogob, gobolka Mudug, Soomaaliya.
+              At Midnimo College of Health and Technology, we strive to empower the next generation
+              of health professionals and skilled workers in the Mudug region. Established in 2017,
+              our college has quickly become the premier Technical and Vocational Education and
+              Training (TVET) institute in Galdogob, Mudug region, Somalia.
             </p>
             <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-              Hadafkeenna waa in aan bixinno waxbarasho tayo sare leh oo dhab ah oo u diyaarisa
-              ardaydeena xirfadaha iyo aqoonta ay u baahan yihiin si ay ugu guulaystaan xirfadahooda
-              oo ay wax ugu biiriyaan caafimaadka iyo ladnaanta bulshada.
+              Our mission is to provide high-quality, practical education that equips our students
+              with the skills and knowledge they need to succeed in their careers and contribute to
+              the health and well-being of the community.
             </p>
             <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-              Midnimo College waxaa la aasaasay iyadoo laga jawaabayo baahi aad muhiim ah oo la
-              ogaaday qiimayn 2017, taasoo muujisay yaraanta bixiyeyaasha caafimaadka oo si
-              wanaagsan loo tababaray ee gobolka. Iyadoo la aqoonsanayo farqigan, waxaan u
-              naqshadeynay manhajkeena si uu diiradda u saaro tababarka dhab ah ee ku saleysan ficil
-              si loo diyaariyo ardaydeena inay la kulmaan baahiyaha warshadaha caafimaadka.
+              Midnimo College was founded in response to a critical need identified in a 2017
+              assessment, which highlighted a shortage of well-trained healthcare providers in the
+              region. Recognizing this gap, we designed our curriculum to focus on practical,
+              action-based training to prepare our students to meet the needs of the healthcare
+              industry.
             </p>
             <Button asChild className="cursor-pointer">
-              <Link href="/about">Wax Badan Ka Ogow Annaga</Link>
+              <Link href="/about">Learn More About Us</Link>
             </Button>
           </div>
           <div className="relative aspect-4/3 lg:aspect-auto lg:h-[400px] xl:h-[500px] rounded-xl sm:rounded-2xl overflow-hidden">
             <Image
               src="/school_images/students-1.jpg"
-              alt="Ardayda Midnimo College"
+              alt="Midnimo College Students"
               fill
               className="object-cover"
             />

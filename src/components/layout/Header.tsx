@@ -9,10 +9,10 @@ import { Button } from '@/components/ui/button'
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
 
 const navItems = [
-  { href: '/', label: 'Guriga' },
-  { href: '/about', label: 'Nagu Saabsan' },
-  { href: '/media', label: 'Wararka' },
-  { href: '/contact', label: 'Nala Soo Xiriir' },
+  { href: '/', label: 'Home' },
+  { href: '/about', label: 'About Us' },
+  { href: '/media', label: 'Media' },
+  { href: '/contact', label: 'Contact Us' },
 ]
 
 export default function Header() {

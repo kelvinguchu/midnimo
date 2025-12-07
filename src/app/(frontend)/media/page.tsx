@@ -30,10 +30,10 @@ export default async function MediaPage() {
         <div className="absolute inset-0 bg-black/60" />
         <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
-            <span className="relative inline-block pb-2 border-b-4 border-primary">Wararka</span>
+            <span className="relative inline-block pb-2 border-b-4 border-primary">News</span>
           </h1>
           <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-xl mx-auto">
-            Wararka ugu dambeeya ee ku saabsan Midnimo College iyo dhacdooyinka.
+            The latest news about Midnimo College and events.
           </p>
         </div>
       </section>
@@ -44,7 +44,7 @@ export default async function MediaPage() {
           {articles.length === 0 ? (
             <div className="text-center py-12">
               <p className="text-muted-foreground text-lg">
-                Wali ma jiraan maqaallo. Fadlan mar kale soo booqo.
+                No articles yet. Please visit again later.
               </p>
             </div>
           ) : (
@@ -78,7 +78,7 @@ export default async function MediaPage() {
                         <div className="flex items-center gap-2 text-xs sm:text-sm text-muted-foreground mb-2">
                           <Calendar className="h-3 w-3 sm:h-4 sm:w-4" />
                           <span>
-                            {new Date(article.createdAt).toLocaleDateString('so-SO', {
+                            {new Date(article.createdAt).toLocaleDateString('en-US', {
                               year: 'numeric',
                               month: 'long',
                               day: 'numeric',
@@ -89,7 +89,7 @@ export default async function MediaPage() {
                           {article.title}
                         </h3>
                         <div className="flex items-center gap-1 text-primary text-sm font-medium">
-                          Akhri Wax Badan
+                          Read More
                           <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                       </CardContent>

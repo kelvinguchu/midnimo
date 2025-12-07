@@ -4,10 +4,10 @@ import { Button } from '@/components/ui/button'
 import { ArrowRight } from 'lucide-react'
 
 const features = [
-  { id: 'scholarships', title: 'Deeqo Waxbarasho Bilaash ah', desc: 'Ardayda danyarta ah' },
-  { id: 'training', title: 'Tababar Dhab ah', desc: 'Waayo-aragnimo caafimaad oo dhabta ah' },
-  { id: 'employment', title: 'Xirfado Shaqo-diyaar ah', desc: '90% heerka shaqaalaynta' },
-  { id: 'curriculum', title: 'Manhaj Casri ah', desc: 'Barnaamijyo la jaanqaadaya warshadaha' },
+  { id: 'scholarships', title: 'Free Scholarships', desc: 'For underprivileged students' },
+  { id: 'training', title: 'Practical Training', desc: 'Real-world medical experience' },
+  { id: 'employment', title: 'Job-Ready Skills', desc: '90% employment rate' },
+  { id: 'curriculum', title: 'Modern Curriculum', desc: 'Industry-aligned programs' },
 ]
 
 export function HeroSection() {
@@ -40,24 +40,23 @@ export function HeroSection() {
             <div className="text-white space-y-4 sm:space-y-6">
               {/* Main Heading */}
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.1]">
-                Awood Siinaya <span className="block text-primary">Geesiyaasha Caafimaadka</span>
+                Empowering <span className="block text-primary">Health Heroes</span>
                 <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl font-normal text-white/80 mt-2">
-                  ee Berri
+                  of Tomorrow
                 </span>
               </h1>
 
               {/* Description */}
               <p className="text-base sm:text-lg text-white/80 max-w-lg leading-relaxed">
-                Ku biir machadka TVET ee ugu sarreeya Mudug. Waxaan u bedelnaa dhalinyarada xiisaha
-                leh xirfadlayaal caafimaad oo xirfad leh iyagoo loo marayo tababar dhab ah iyo
-                waxbarasho tayo leh.
+                Join the top TVET institute in Mudug. We transform passionate youth into skilled
+                health professionals through practical training and quality education.
               </p>
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2">
                 <Button asChild size="lg" className="group cursor-pointer">
                   <Link href="/contact" className="flex items-center justify-center gap-2">
-                    Isdiiwaangeli Hadda
+                    Register Now
                     <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </Button>
@@ -67,7 +66,7 @@ export function HeroSection() {
                   size="lg"
                   className="border-white/30 bg-white/5 text-white hover:bg-white hover:text-black backdrop-blur-sm cursor-pointer"
                 >
-                  <Link href="/about">Baro Barnaamijyada</Link>
+                  <Link href="/about">Explore Programs</Link>
                 </Button>
               </div>
             </div>
@@ -77,7 +76,7 @@ export function HeroSection() {
               <div className="relative">
                 {/* Main Card */}
                 <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-8 space-y-6">
-                  <h3 className="text-white text-xl font-semibold">Sababta Ardaydu Noo Doortaan</h3>
+                  <h3 className="text-white text-xl font-semibold">Why Students Choose Us</h3>
                   <div className="space-y-4">
                     {features.map((item, i) => (
                       <div
@@ -95,13 +94,13 @@ export function HeroSection() {
                     ))}
                   </div>
                   <Button asChild className="w-full cursor-pointer" size="lg">
-                    <Link href="/contact">Bilow Safarkagada</Link>
+                    <Link href="/contact">Start Your Journey</Link>
                   </Button>
                 </div>
 
                 {/* Floating Badge */}
                 <div className="absolute -top-4 -right-4 bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
-                  Laga bilaabo 2017
+                  Since 2017
                 </div>
               </div>
             </div>
@@ -131,23 +130,21 @@ export function HeroSection() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 text-center">
             <div className="space-y-0.5 sm:space-y-1">
               <p className="text-2xl sm:text-3xl md:text-5xl font-bold">487</p>
-              <p className="text-[10px] sm:text-xs md:text-sm text-white/80">Qalin Jabiyeyaal</p>
+              <p className="text-[10px] sm:text-xs md:text-sm text-white/80">Graduates</p>
             </div>
             <div className="space-y-0.5 sm:space-y-1">
               <p className="text-2xl sm:text-3xl md:text-5xl font-bold">8</p>
               <p className="text-[10px] sm:text-xs md:text-sm text-white/80">
-                Xafladaha Qalin Jabinta
+                Graduation Ceremonies
               </p>
             </div>
             <div className="space-y-0.5 sm:space-y-1">
               <p className="text-2xl sm:text-3xl md:text-5xl font-bold">2017</p>
-              <p className="text-[10px] sm:text-xs md:text-sm text-white/80">
-                Sannadka La Aasaasay
-              </p>
+              <p className="text-[10px] sm:text-xs md:text-sm text-white/80">Year Established</p>
             </div>
             <div className="space-y-0.5 sm:space-y-1">
               <p className="text-2xl sm:text-3xl md:text-5xl font-bold">85%</p>
-              <p className="text-[10px] sm:text-xs md:text-sm text-white/80">Ardayda Dumar</p>
+              <p className="text-[10px] sm:text-xs md:text-sm text-white/80">Female Students</p>
             </div>
           </div>
         </div>

@@ -32,88 +32,88 @@ const courses: Course[] = [
     id: 'nursing',
     icon: Stethoscope,
     title: 'Auxiliary Nursing',
-    duration: '1 Sano',
+    duration: '1 Year',
     description:
-      'Koorska Auxiliary Nursing waa barnaamij dhammaystiran oo loo qaabeeyay in lagu siiyo ardayda xirfadaha aasaasiga ah iyo aqoonta lagama maarmaanka u ah taageeridda bixiyeyaasha caafimaadka goobaha kala duwan. Koorskani wuxuu daboolayaa mawduucyo sida daryeelka kalkaaliyanimada aasaasiga ah, nadaafadda bukaanka, bixinta daawada, iyo gargaarka degdegga ah. Ardaydu waxay helayaan waayo-aragnimo dhab ah oo laga helo goobaha caafimaadka dhabta ah, iyagoo loogu diyaarinayo inay si wax ku ool ah uga shaqeeyaan isbitaallada, rugaha caafimaadka, iyo xarumaha caafimaadka bulshada.',
+      'The Auxiliary Nursing course is a comprehensive program designed to provide students with the fundamental skills and knowledge necessary to support healthcare providers in various settings. This course covers topics such as basic nursing care, patient hygiene, medication administration, and first aid. Students gain practical experience in real healthcare settings, preparing them to work effectively in hospitals, clinics, and community health centers.',
     modules: [
-      'Anatomy-ga iyo Physiology-ga Aasaasiga ah',
-      'Xakamaynta Caabuqa iyo Nadaafadda',
-      'Daryeelka iyo Caawinta Bukaanka',
-      'Maamulka Daawada',
-      'Jawaabta Degdegga ah iyo Gargaarka Koowaad',
-      'Tababarka Kliinikiga Dhab ah',
+      'Basic Anatomy and Physiology',
+      'Infection Control and Hygiene',
+      'Patient Care and Assistance',
+      'Medication Administration',
+      'Emergency Response and First Aid',
+      'Practical Clinical Training',
     ],
     careers:
-      'Qalin jabiyeyaashu waxay raadsan karaan xirfado sida caawiyeyaasha kalkaaliyanimada, farsamooyin daryeelka bukaanka, ama caawiyeyaasha caafimaadka guriga ee xarumaha caafimaadka kala duwan.',
+      'Graduates can pursue careers as nursing assistants, patient care technicians, or home health aides in various healthcare facilities.',
   },
   {
     id: 'computer',
     icon: Monitor,
     title: 'Computer Science',
-    duration: '1 Sano',
+    duration: '1 Year',
     description:
-      'Koorska Computer Science ee Midnimo College wuxuu siiyaa ardayda xirfadaha farsamada ee lagama maarmaanka u ah adduunka dijitaalka ah ee maanta. Koorskani waxa uu u fiican yahay shakhsiyaadka raadinaya aasaas adag oo ku saabsan kombuyuutarada iyo tiknoolajiyada macluumaadka. Manhajku wuxuu daboolayaa mawduucyo ballaaran, oo ay ku jiraan barnaamijyada kombuyuutarada, maamulka xogta, isku xirka internetka, iyo amniga internetka.',
+      "The Computer Science course at Midnimo College provides students with the technical skills essential for today's digital world. This course is ideal for individuals seeking a strong foundation in computers and information technology. The curriculum covers a wide range of topics, including computer programming, database management, networking, and cybersecurity.",
     modules: [
-      'Hordhac Barnaamijyada (Python ama Java)',
-      'Nidaamyada Maamulka Xogta',
-      'Shabakadaha Kombuyuutarada iyo Tiknoolajiyada Internetka',
-      'Aasaaska Horumarinta Websaydka',
-      'Aasaaska Amniga Internetka',
-      'Taageerada IT-ga iyo Xallinta Dhibaatooyinka',
+      'Introduction to Programming (Python or Java)',
+      'Database Management Systems',
+      'Computer Networks and Internet Technologies',
+      'Web Development Fundamentals',
+      'Cybersecurity Fundamentals',
+      'IT Support and Troubleshooting',
     ],
     careers:
-      'Qalin jabiyeyaashu waxay raadsan karaan jagooyin sida takhasuslayaasha taageerada IT, barnaamij sameeyayaal yar, farsamooyin shabakad, ama horumariyayaasha websaydka warshadaha kala duwan.',
+      'Graduates can seek positions such as IT support specialists, junior programmers, network technicians, or web developers in various industries.',
   },
   {
     id: 'pharmacology',
     icon: FlaskConical,
     title: 'Pharmacology',
-    duration: '6 Bilood',
+    duration: '6 Months',
     description:
-      'Koorska Pharmacology waa barnaamij adag oo loo qaabeeyay in lagu siiyo ardayda faham qoto dheer oo ku saabsan daawada iyo saamaynteeda jirka aadanaha. Ardaydu waxay baran doonaan noocyada kala duwan ee daawada, isticmaalkooda daaweynta, waxyeelada dhinaca, iyo mabaadi&apos;da bixinta daawada ammaan ah.',
+      'The Pharmacology course is a rigorous program designed to provide students with a deep understanding of drugs and their effects on the human body. Students will learn about different types of drugs, their therapeutic uses, side effects, and principles of safe medication administration.',
     modules: [
-      'Hordhac Pharmacology-ga',
-      'Kala Soocida Daawada iyo Habka Ficilka',
-      'Isticmaalka Daaweynta Daawada',
-      'Dhaqamada Daawada ee Ammaan ah',
-      'Akhrinta iyo Bixinta Qoraalka Dhakhtarka',
-      'Tababarka Dhab ah ee Goobta Farmashiyaha',
+      'Introduction to Pharmacology',
+      'Drug Classification and Mechanism of Action',
+      'Therapeutic Use of Drugs',
+      'Safe Medication Practices',
+      'Prescription Reading and Dispensing',
+      'Practical Pharmacy Training',
     ],
     careers:
-      'Qalin jabiyeyaashu waxay ka shaqayn karaan caawiyayaasha farmashiyaha, bixiyayaasha daawada, ama jagooyin kale oo taageero ah oo ku jira farmashiyaha iyo xarumaha caafimaadka.',
+      'Graduates can work as pharmacy assistants, drug dispensers, or in other support roles in pharmacies and healthcare facilities.',
   },
   {
     id: 'vocational',
     icon: Scissors,
     title: 'Vocational Skills',
-    duration: 'Way Kala Duwanaan Kartaa',
+    duration: 'Varies',
     description:
-      'Midnimo College waxay bixisaa koorsoyin xirfadeed oo kala duwan oo loo habeeyay inay ardayda siiyaan xirfado dhab ah oo baahi weyn laga qabo. Koorsasyadani waxaa loogu tala galay shakhsiyaadka raadinaya inay si degdeg ah ugu biiraan shaqada iyagoo wata awoodo gaar ah oo dhab ah.',
+      'Midnimo College offers various vocational courses tailored to provide students with practical skills that are in high demand. These courses are designed for individuals looking to quickly join the workforce with specific practical abilities.',
     modules: [
-      'Dharka: Baro aasaaska tolmada, goynta maryaha, dhisidda dharka, iyo naqshadeynta fashion-ka.',
-      'Karinta: Hel khibrad farsamada karinta, oo ay ku jiraan diyaarinta cuntada, farsamooyinka karinta, iyo nadaafadda jikada.',
-      'Saxaafadda: Horumar xirfadaha warbixinta wararka, qorista, iyo anshaxa saxaafadda.',
+      'Tailoring: Learn the basics of sewing, fabric cutting, garment construction, and fashion design.',
+      'Cooking: Gain expertise in culinary arts, including food preparation, cooking techniques, and kitchen hygiene.',
+      'Journalism: Develop skills in news reporting, writing, and journalistic ethics.',
     ],
     careers:
-      'Qalin jabiyeyaashu waxay raadsan karaan xirfado sida tollaalo, sareenjiyo, rootidhibcayaal, saxaafiyiin, ama bilaabi karaan ganacsigoodii u gaarka ahaa goobta ay doortaan.',
+      'Graduates can pursue careers as tailors, chefs, bakers, journalists, or start their own businesses in their chosen field.',
   },
   {
     id: 'english',
     icon: Languages,
     title: 'English Language',
-    duration: '1 Sano',
+    duration: '1 Year',
     description:
-      'Koorska Luuqadda Ingiriisiga waxa loo qaabeeyay in lagu wanaajiyo xirfadda Ingiriisiga ee ardayda, taas oo muhiim u ah guusha tacliimeed iyo xirfadeed. Koorskani waxa uu u fiican yahay labadaba bilowgayaasha iyo kuwa raadinaya inay sii fiicnaan xirfadahooda luuqadda.',
+      "The English Language course is designed to improve students' English proficiency, which is crucial for academic and professional success. This course is ideal for both beginners and those looking to refine their language skills.",
     modules: [
-      'Naxwaha Ingiriisiga ee Aasaasiga ilaa Horumarsan',
-      'Dhisida Ereybixin',
-      'Xeeladaha Fahamka Akhriska',
-      'Xirfadaha Qorista (Maqaallada, Warbixinaha, iyo Xiriirka)',
-      'Ingiriisiga La Hadlo iyo Dhawaaqa',
-      'Jimicsiyada Dhageysiga iyo Fahamka',
+      'Basic to Advanced English Grammar',
+      'Vocabulary Building',
+      'Reading Comprehension Strategies',
+      'Writing Skills (Essays, Reports, and Communication)',
+      'Spoken English and Pronunciation',
+      'Listening and Comprehension Exercises',
     ],
     careers:
-      'Qalin jabiyeyaasha leh xirfado Ingiriisi adag waxay raadsan karaan fursado waxbarasho, adeegga macaamiisha, maamulka, iyo goob kasta oo u baahan xidhiidh waxtar leh oo Ingiriisi ah.',
+      'Graduates with strong English skills can seek opportunities in education, customer service, administration, and any field requiring effective English communication.',
   },
 ]
 
@@ -124,10 +124,10 @@ export function CoursesSection() {
     <section className="py-6 md:py-8 bg-background">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-6 md:mb-12">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">Koorsasheena</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">Our Courses</h2>
           <p className="text-sm sm:text-base text-muted-foreground mx-auto">
-            Waxaan bixinaa barnaamijyo kala duwan oo loo qaabeeyay inay ardayda u diyaariyaan
-            xirfado guul leh ee caafimaadka iyo tiknoolajiyada.
+            We offer various programs designed to prepare students for successful careers in health
+            and technology.
           </p>
         </div>
 
@@ -219,7 +219,7 @@ export function CoursesSection() {
                     <div className="flex items-center gap-2 mt-1">
                       <Clock className="h-4 w-4" />
                       <span className="text-sm text-white/90">
-                        Muddada: {activeCourse.duration}
+                        Duration: {activeCourse.duration}
                       </span>
                     </div>
                   </div>
@@ -235,9 +235,7 @@ export function CoursesSection() {
                   <div className="flex items-center gap-2 mb-3 sm:mb-4">
                     <BookOpen className="h-5 w-5 text-primary" />
                     <h4 className="font-semibold text-base sm:text-lg">
-                      {activeCourse.id === 'vocational'
-                        ? 'Koorsooyin La Bixiyo'
-                        : 'Qaybaha Muhiimka ah'}
+                      {activeCourse.id === 'vocational' ? 'Courses Offered' : 'Key Modules'}
                     </h4>
                   </div>
                   <div className="grid gap-2 sm:gap-3 sm:grid-cols-2">
@@ -262,7 +260,7 @@ export function CoursesSection() {
                 <div className="border-t pt-5 sm:pt-6">
                   <div className="flex items-center gap-2 mb-2 sm:mb-3">
                     <Briefcase className="h-5 w-5 text-primary" />
-                    <h4 className="font-semibold text-base sm:text-lg">Fursadaha Xirfadda</h4>
+                    <h4 className="font-semibold text-base sm:text-lg">Career Opportunities</h4>
                   </div>
                   <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
                     {activeCourse.careers}

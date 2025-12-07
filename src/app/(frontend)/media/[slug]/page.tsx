@@ -57,7 +57,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <div className="flex items-center justify-center gap-2 text-white/80 text-sm sm:text-base">
             <Calendar className="h-4 w-4" />
             <span>
-              {new Date(article.createdAt).toLocaleDateString('so-SO', {
+              {new Date(article.createdAt).toLocaleDateString('en-US', {
                 year: 'numeric',
                 month: 'long',
                 day: 'numeric',
@@ -77,7 +77,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors mb-8 cursor-pointer"
             >
               <ArrowLeft className="h-4 w-4" />
-              Ku noqo Wararka
+              Back to Media
             </Link>
 
             {/* Rich Text Content */}

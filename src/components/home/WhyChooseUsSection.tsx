@@ -11,27 +11,27 @@ interface FeatureCard {
 const features: FeatureCard[] = [
   {
     icon: Globe,
-    title: 'Saamaynta Gobolka',
+    title: 'Regional Impact',
     description:
-      'Kulliyadda TVET ee kaliya ee Mudug, Midnimo College waxay wax ka qabataa baahida aadka ah ee bixiyeyaasha caafimaadka xirfad leh. Qalin jabiyeyaasheenu waa muhiim adeegyada caafimaadka maxalliga ah. Shaqadoodu waxay si toos ah u wanaajisaa natiijooyinka caafimaadka ee gobolka.',
+      'As the only TVET college in Mudug, Midnimo College addresses the critical need for skilled healthcare providers. Our graduates are vital to local health services. Their work directly improves health outcomes in the region.',
   },
   {
     icon: Users,
-    title: 'Diiradda Bulshada',
+    title: 'Community Focus',
     description:
-      'Waxaan beegsannaa dhalinyarada aan dhammaystirin dugsiyada asaasiga ah, anagoo siinaya koorsooyin marin u ah inay dib ugu soo laabtaan nidaamka waxbarashada. Tani waxay siisaa fursad labaad oo waxbarasho iyo waxay yaraynaysaa shaqo la&apos;aanta iyadoo lagu siinayo xirfado qiimo leh.',
+      'We target youth who have not completed primary school, providing bridge courses to help them re-enter the education system. This offers a second chance at education and reduces unemployment by providing valuable skills.',
   },
   {
     icon: Heart,
-    title: 'Awood Siinta Dumarka',
+    title: 'Women Empowerment',
     description:
-      'Iyadoo 80-85% ee ardaydayadu ay yihiin dumar, waxaan nahay machadka ugu horumarsan ee Puntland ee diiradda saaraya waxbarashada dumarka. Waxaan mudnaanta siinaa waxbarashada haweenka si loo horumarinayo gobolka. Haweenka waxbaratay waxay kor u qaadaan bulshadooda iyo qoysaskooda.',
+      "With 80-85% of our students being female, we are the leading institute in Puntland focusing on women's education. We prioritize women's education to develop the region. Educated women uplift their communities and families.",
   },
   {
     icon: Award,
-    title: 'Deeqo Waxbarasho',
+    title: 'Scholarships',
     description:
-      'Waxaan siinaa waxbarasho bilaash ah ardayda ka timid qoysaska danyarta ah, taasoo waxbarashada u fududaynaysa dhammaan. Caqabadaha maaliyaddu waa inaysan xaddiddin awoodda. Deeqahayagu waxay hubinayaan in qof walba uu helo fursadda guusha.',
+      'We provide free education to students from underprivileged families, making education accessible to all. Financial barriers should not limit potential. Our scholarships ensure everyone has a chance to succeed.',
   },
 ]
 
@@ -41,11 +41,11 @@ export function WhyChooseUsSection() {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-6 md:mb-12">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">
-            Maxaa Noo Dooranaysaa?
+            Why Choose Us?
           </h2>
           <p className="text-sm sm:text-base text-muted-foreground mx-auto">
-            Ogaada waxa ka dhigaya Midnimo College machadka ugu horumarsan ee waxbarashada
-            caafimaadka iyo xirfadda ee gobolka Mudug.
+            Discover what makes Midnimo College the leading institute for health and vocational
+            education in the Mudug region.
           </p>
         </div>
 

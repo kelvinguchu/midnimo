@@ -5,7 +5,7 @@ import React from 'react'
 export default function WhatsAppButton() {
   const phoneNumber = '252907021177'
   const message = encodeURIComponent(
-    'Assalamu Calaykum, Machadka Midnimo College, waxaan u baahanahay macluumaad dheeraad ah oo ku saabsan koorsasheenna.',
+    'Assalamu Alaykum, Midnimo College, I need more information about your courses.',
   )
 
   return (
@@ -14,7 +14,7 @@ export default function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-transform hover:scale-110 cursor-pointer"
-      aria-label="Nala soo xiriir WhatsApp"
+      aria-label="Contact us on WhatsApp"
     >
       <svg
         className="h-7 w-7 sm:h-8 sm:w-8"
