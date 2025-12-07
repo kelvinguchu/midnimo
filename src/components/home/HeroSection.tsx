@@ -39,17 +39,14 @@ export function HeroSection() {
             {/* Left Content */}
             <div className="text-white space-y-4 sm:space-y-6">
               {/* Main Heading */}
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.1]">
-                Empowering <span className="block text-primary">Health Heroes</span>
-                <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl font-normal text-white/80 mt-2">
-                  of Tomorrow
-                </span>
+              <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.1]">
+                Excellence in <span className="block text-primary">Health & Technology</span>
               </h1>
 
               {/* Description */}
               <p className="text-base sm:text-lg text-white/80 max-w-lg leading-relaxed">
                 Join the top TVET institute in Mudug. We transform passionate youth into skilled
-                health professionals through practical training and quality education.
+                professionals through practical training and quality education.
               </p>
 
               {/* CTA Buttons */}
