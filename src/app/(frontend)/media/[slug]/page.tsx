@@ -6,6 +6,7 @@ import config from '@payload-config'
 import { RichText } from '@payloadcms/richtext-lexical/react'
 import { Calendar, ArrowLeft } from 'lucide-react'
 import type { SerializedEditorState } from '@payloadcms/richtext-lexical/lexical'
+import type { Metadata } from 'next'
 
 export const dynamic = 'force-dynamic'
 
@@ -24,7 +25,40 @@ async function getArticle(slug: string) {
   return articles.docs[0] || null
 }
 
-export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}): Promise<Metadata> {
+  const { slug } = await params
+  const article = await getArticle(slug)
+
+  if (!article) {
+    return {
+      title: 'Article Not Found',
+    }
+  }
+
+  const featuredImage = typeof article.featuredImage === 'object' ? article.featuredImage : null
+
+  return {
+    title: article.title,
+    description: `Read ${article.title} on Midnimo College.`,
+    openGraph: {
+      title: article.title,
+      description: `Read ${article.title} on Midnimo College.`,
+      images: featuredImage?.url ? [featuredImage.url] : [],
+      type: 'article',
+      publishedTime: article.createdAt,
+    },
+  }
+}
+
+export default async function ArticlePage({
+  params,
+}: {
+  readonly params: Promise<{ slug: string }>
+}) {
   const { slug } = await params
   const article = await getArticle(slug)
 

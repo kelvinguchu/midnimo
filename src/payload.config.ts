@@ -16,7 +16,7 @@ const dirname = path.dirname(filename)
 
 export default buildConfig({
   serverURL:
-    process.env.NODE_ENV === 'production' ? 'https://midnimocollege.so' : 'http://localhost:3000',
+    process.env.NODE_ENV === 'production' ? 'https://midnimocollege.org' : 'http://localhost:3000',
   admin: {
     user: Users.slug,
     meta: {

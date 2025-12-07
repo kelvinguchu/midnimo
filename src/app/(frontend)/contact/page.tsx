@@ -1,5 +1,12 @@
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/card'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Contact Us',
+  description:
+    'Get in touch with Midnimo College. We are here to answer your questions about admissions, courses, and more.',
+}
 
 export default function ContactPage() {
   return (

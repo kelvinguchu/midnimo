@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import {
   AboutHeroSection,
   MissionSection,
@@ -6,6 +7,12 @@ import {
   GraduatesSection,
   FacultySection,
 } from '@/components/about'
+
+export const metadata: Metadata = {
+  title: 'About Us',
+  description:
+    'Learn about Midnimo College, our mission, history, and commitment to health education excellence in Somalia.',
+}
 
 export default function AboutPage() {
   return (

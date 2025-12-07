@@ -4,8 +4,14 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Calendar, ArrowRight } from 'lucide-react'
 import { getPayload } from 'payload'
 import config from '@payload-config'
+import type { Metadata } from 'next'
 
 export const dynamic = 'force-dynamic'
+
+export const metadata: Metadata = {
+  title: 'News & Media',
+  description: 'Latest news, updates, and articles from Midnimo College of Health and Technology.',
+}
 
 async function getArticles() {
   const payload = await getPayload({ config })

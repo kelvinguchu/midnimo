@@ -19,7 +19,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'midnimocollege.so',
+        hostname: 'midnimocollege.org',
       },
     ],
   },
