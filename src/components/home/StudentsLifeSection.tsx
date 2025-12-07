@@ -1,9 +1,6 @@
 import Image from 'next/image'
-import { Trophy, Lightbulb, FolderKanban, BookOpen } from 'lucide-react'
-import { type LucideIcon } from 'lucide-react'
 
 interface Activity {
-  icon: LucideIcon
   title: string
   description: string
   image: string
@@ -11,25 +8,21 @@ interface Activity {
 
 const activities: Activity[] = [
   {
-    icon: Trophy,
     title: 'Sports',
     description: 'Physical fitness and team building through various sports activities.',
     image: '/school_images/sports-1.jpg',
   },
   {
-    icon: Lightbulb,
     title: 'Leadership',
     description: 'Nurturing future leaders through community engagement and initiatives.',
     image: '/school_images/communitywalk-1.jpg',
   },
   {
-    icon: FolderKanban,
     title: 'Projects',
     description: 'Practical projects that prepare students for real-life challenges.',
     image: '/school_images/training.jpg',
   },
   {
-    icon: BookOpen,
     title: 'Education',
     description: 'Quality education provided in modern classrooms by reliable instructors.',
     image: '/school_images/learning-1.jpg',
@@ -64,7 +57,6 @@ export function StudentsLifeSection() {
               </div>
               <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 text-white">
                 <div className="flex items-center gap-2 sm:gap-3 mb-1 sm:mb-2">
-                  <activity.icon className="h-5 w-5 sm:h-6 sm:w-6 text-primary" />
                   <h3 className="text-lg sm:text-xl font-bold">{activity.title}</h3>
                 </div>
                 <p className="text-xs sm:text-sm text-white/80">{activity.description}</p>

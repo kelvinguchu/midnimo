@@ -55,7 +55,7 @@ export function WhyChooseUsSection() {
               key={feature.title}
               className="hover:shadow-lg transition-shadow border-t-4 border-t-primary"
             >
-              <CardContent className="p-4 sm:p-6 space-y-3 sm:space-y-4">
+              <CardContent className=" space-y-3 sm:space-y-4">
                 <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-primary/10 flex items-center justify-center">
                   <feature.icon className="h-6 w-6 sm:h-7 sm:w-7 text-primary" />
                 </div>

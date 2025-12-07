@@ -110,9 +110,9 @@ export default function Footer() {
               <li className="flex items-start gap-2 sm:gap-3 text-slate-400">
                 <Clock className="h-4 w-4 sm:h-5 sm:w-5 text-primary shrink-0 mt-0.5" />
                 <div className="text-xs sm:text-sm">
-                  <p>Aroornimo: 8AM - 12PM</p>
-                  <p>Galabnimo: 4PM - 6PM</p>
-                  <p>Habeennimo: 6:15PM - 9:30PM</p>
+                  <p>Morning: 8AM - 12PM</p>
+                  <p>Afternoon: 4PM - 6PM</p>
+                  <p>Evening: 6:15PM - 9:30PM</p>
                 </div>
               </li>
             </ul>
@@ -124,14 +124,14 @@ export default function Footer() {
       <div className="border-t border-slate-800">
         <div className="container mx-auto px-4 sm:px-6 py-4 sm:py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-3 sm:gap-4 text-xs sm:text-sm text-slate-500">
-            <p>© {currentYear} Midnimo College. Dhammaan xuquuqda way dhowran tahay.</p>
+            <p>© {currentYear} Midnimo College. All rights reserved.</p>
             <a
               href="https://www.kulmi.digital/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-slate-400 transition-colors cursor-pointer"
             >
-              Waxaa sameeyay Kulmi Digital
+              Developed by Kulmi Digital
             </a>
           </div>
         </div>

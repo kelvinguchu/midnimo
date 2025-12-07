@@ -39,7 +39,7 @@ export function HeroSection() {
             {/* Left Content */}
             <div className="text-white space-y-4 sm:space-y-6">
               {/* Main Heading */}
-              <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.1]">
+              <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.1]">
                 Excellence in <span className="block text-primary">Health & Technology</span>
               </h1>
 
