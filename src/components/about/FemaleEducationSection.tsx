@@ -12,8 +12,8 @@ export function FemaleEducationSection() {
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
               At Midnimo Institute, we deeply believe in the power of educational choice, especially
-              in the lives of women. We prioritize women&apos;s education, making it our main objective,
-              and as a result, the majority of our students are women.
+              in the lives of women. We prioritize women&apos;s education, making it our main
+              objective, and as a result, the majority of our students are women.
             </p>
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
               Recognizing the economic challenges faced by many in our community, we also provide
