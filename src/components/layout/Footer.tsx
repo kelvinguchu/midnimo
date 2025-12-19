@@ -131,7 +131,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="hover:text-slate-400 transition-colors cursor-pointer"
             >
-              Developed by Kulmi Digital
+              Developed and Designed by Kulmi Digital
             </a>
           </div>
         </div>
